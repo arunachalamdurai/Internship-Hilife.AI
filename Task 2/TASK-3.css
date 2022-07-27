@@ -1,0 +1,12 @@
+div{
+    display: flex;
+    background-image: url("/IMAGES/image-2.jpg");
+    padding: 30px;
+}
+span{
+    display: block;
+    background-image: url("/IMAGES/image-2.jpg");
+    }
+    h1{
+        display: block
+    }

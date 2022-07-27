@@ -1,0 +1,15 @@
+*{
+    background-color: black;
+}
+#image1{
+    text-align: center;
+}
+#image2{
+    filter: blur(5px);
+}
+#image3{
+    filter: opacity(0.5);
+}
+#image4{
+    border: 5px solid white;
+}

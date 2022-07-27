@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<style>
+    #c{
+      width: 200px;
+      height: 200px;
+      background-color:red;
+      animation-name: one;
+      animation-duration:10s;
+  
+    }
+    @keyframes one{
+      from {background-color: red;}
+      to {background-color: yellow;}
+    }
+#d{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(61, 224, 97);
+    transition:5s;
+}
+#d:hover{
+width: 600px;
+}
+#f{
+  width: 200px;
+    height: 100px;
+    background-color:rgb(0, 102, 255);
+    transform: rotate(20deg);
+}
+@media  screen and (min-width: 150px) and (max-width: 700px){
+  #c{
+    width: 100px;
+    height: 100px;
+    }
+  #d{
+    width: 100px;
+    height: 100px;
+  }
+  #f{
+    width: 100px;
+    height: 100px;
+  }
+}
+    </style>
+    </head>
+    <body>
+  <div id="c"><H1>Animation</H1></div><br><br>
+  <div id="d"><H1>Transition</H1></div><br><br>
+  <div id="f"><H1>Trasfrome</H1>
+  </div><br><br>
+    </body>
+    </html>

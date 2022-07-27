@@ -1,0 +1,39 @@
+
+
+/* 
+#sup{
+    font-size: larger;
+}
+
+#se{
+    text-align: center;
+
+}
+#im{
+    align-items: center;
+} */
+.dra{
+      background-color: rgb(188, 245, 81);
+}
+  #dram{
+      text-align: center;
+}
+.row{
+    color: rgb(32, 34, 36);
+}
+#s{
+    text-align: center;
+
+}
+.button1 {
+    background-color: #003bfc;
+} 
+#loren{
+    text-align: justify;
+}
+.card-title{
+    text-align: center;
+}
+.card{
+    display: flex;
+}

@@ -1,0 +1,11 @@
+*{
+    background-color: deepskyblue;
+}
+p::first-letter{
+    font-size: 30px;
+    font-style: italic;
+}
+h1:hover{
+    font-size: 40px;
+    color: rgb(9, 255, 0);
+}
