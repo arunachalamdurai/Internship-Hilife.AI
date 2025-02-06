@@ -93,6 +93,7 @@
 
  #aboutimg {
      box-shadow: -30px 10px 50px #17203a;
+     border: solid gray 1px;
  }
 
  #aboutdb {
@@ -211,10 +212,15 @@
      
  }
 
- .vl {
+.vl {
      border-left: 2px solid rgb(126, 116, 116);
-     height: 550px;
+     /* height: 550px; */
+     padding: 20px;
  }
+
+ .vl p{
+    margin: 0px;
+}
 
  #resumeicon {
      margin-left: 21%;
@@ -320,4 +326,9 @@
  .vlc p{
     color: rgb(170, 158, 158);
     margin-left: 5%;
+ }
+
+ #homePF{
+    border-radius: 50%;
+    border: solid gray 1px;
  }
