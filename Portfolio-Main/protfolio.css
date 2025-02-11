@@ -87,6 +87,10 @@ ul a {
     text-align: center;
     color: rgb(255, 255, 255);
 }
+#typed-text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
 
 #home1 {
     text-align: center;
@@ -307,3 +311,6 @@ form .form-group {
     margin-left: 70px;
     flex-flow: row;
 }
+
+
+

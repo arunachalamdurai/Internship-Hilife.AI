@@ -67,6 +67,10 @@
  #home {
      color: rgb(255, 255, 112);
  }
+ #typed-text{
+    color: rgb(255, 255, 112);
+    text-align: center;
+}
 
  .homeicon ul li {
      list-style-type: none;
@@ -332,3 +336,19 @@
     border-radius: 50%;
     border: solid gray 1px;
  }
+
+
+
+
+ /* Initial state - hidden */
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+/* Visible state - smooth transition */
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
